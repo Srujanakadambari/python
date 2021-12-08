@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Dec  8 14:14:51 2021
+
+@author: chaitanyasudarsan
+"""
+print("Colors is the Rainbow will be displayed by their numbers with respect to 'VIBGYOR'")
+color = int(input("Enter a number from 1 to 7: "))
+if color == 1:
+    print("'V'IBGYOR")
+    print("the color is voilet")
+elif color ==2:
+    print("V'I'BGYOR")
+    print("the color is Indigo")
+elif color == 3:
+    print("VI'B'GYOR")
+    print("the color is Blue")
+elif color == 4:
+    print("VIB'G'YOR")
+    print("the color is Green")
+elif color == 5:
+    print("VIBG'Y'OR")
+    print("the color is Yellow")
+elif color == 6:
+    print("VIBGY'O'R")
+    print("the color is Orange")
+elif color == 7:
+    print("VIBGYO'R'")
+    print ("the color is Red")
+else:
+    print("you havent choosen a right number")
+              
+                 
+                
