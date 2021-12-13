@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Dec 13 12:53:05 2021
+
+@author: chaitanyasudarsan
+"""
+Name = input("please type the name:")
+Interests = input("please type your interest: ")
+feeling = input("please type your feeling: ")
+madlib = f"hello! I am {Name}, I love {Interests}... Doing it makes me feel {feeling}."
+print(madlib)
